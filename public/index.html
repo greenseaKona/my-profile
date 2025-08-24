@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>분개 처리 시스템 - NHN 포트폴리오</title>
+    <meta name="description" content="원천 데이터 기반 3단계 회계 분개 자동 처리 시스템">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- React & Babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="src/styles/main.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="분개 처리 시스템 - NHN 포트폴리오">
+    <meta property="og:description" content="원천 데이터 기반 3단계 회계 분개 자동 처리 시스템">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://greenseaKona.github.io/accounting-journal-system">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Load components -->
+    <script type="text/babel" src="src/data/mockData.js"></script>
+    <script type="text/babel" src="src/utils/journalProcessor.js"></script>
+    <script type="text/babel" src="src/components/StepIndicator.js"></script>
+    <script type="text/babel" src="src/components/DataCollection.js"></script>
+    <script type="text/babel" src="src/components/JournalConfig.js"></script>
+    <script type="text/babel" src="src/components/ProcessingResults.js"></script>
+    <script type="text/babel" src="src/components/AccountingJournalSystem.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel">
+        ReactDOM.render(<AccountingJournalSystem />, document.getElementById('root'));
+    </script>
+</body>
+</html>
