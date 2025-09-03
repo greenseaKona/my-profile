@@ -2,7 +2,7 @@
   "name": "my-profile",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://greenseakona.github.io/my-profile/",
+  "homepage": "https://greenseakona.github.io/my-profile",
   "type": "module",
   "scripts": {
     "dev": "vite",

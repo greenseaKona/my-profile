@@ -162,11 +162,11 @@ const AccountingJournalSystem = () => {
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-7xl mx-auto">
         {/* 헤더 */}
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">3단계 분개 처리 시스템</h1>
-          <p className="text-gray-600">원천 데이터 수집 → 분개 작성 설정 → 처리 결과 출력</p>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl shadow-lg p-8 mb-8">
+          <h1 className="text-3xl font-extrabold text-blue-700 mb-3"> 3단계 분개 처리 시스템 </h1>
+          <p className="text-teal-700 text-lg mb-2"> 원천 데이터 수집 → 분개 작성 설정 → 처리 결과 출력 </p>
+          <p className="text-gray-600 text-base">  - 전표분개를 설정을 통해 결과를 얻을 수 있는 시스템을 React로 간략히 표현했습니다. 😄</p>
         </div>
-
         {/* 단계 표시 */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center space-x-4">
